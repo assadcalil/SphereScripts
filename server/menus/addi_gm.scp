@@ -1,0 +1,22 @@
+// Ultima Online Brasil - Script Pack
+// Pack rebuilded by: Thiago Calil
+VERSION=0.56d
+
+[MENU M_ADDI_GM]
+GameMaster Items
+ON=0 GM Robe (undyed)
+ADD i_robe_gm
+ON=0 Magic Key
+ADD i_key_magic
+ON=0 Teleport Rune
+ADD i_RUNE_GLOWING_1
+ON=0 Lord British Armor
+ADD i_PERSON_LORD_BRITISH
+ON=0 Blackthorne Robe
+ADD i_PERSON_BLACK_THORNE
+ON=0 Death Shroud
+ADD i_deathshroud
+ON=0 PREVIOUS MENU
+MENU M_GMFEATURES
+
+[EOF]

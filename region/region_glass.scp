@@ -1,0 +1,20 @@
+// Ultima Online Brasil - Script Pack
+// Pack rebuilded by: Thiago Calil
+VERSION=0.56d
+
+/////////////////////////////////////
+// Resources for herbivores to eat //
+/////////////////////////////////////
+
+[REGIONRESOURCE mr_grass]
+AMOUNT=9,30        // This many...
+REAP=i_hay_sheaf   // ...of this item...
+REAPAMOUNT=1       // ...can be harvested this many at a time...
+//SKILL=0.0        // ...and it takes no skill to do it.
+REGEN=60*60*10
+
+[REGIONTYPE r_default_grass t_grass]
+// All grass can be eaten by default.
+RESOURCES=1.0 mr_grass
+
+[EOF]

@@ -1,0 +1,23 @@
+// Ultima Online Brasil - Script Pack
+// Pack rebuilded by: Thiago Calil
+VERSION=0.56d
+
+[COMMENT sphere_resource]
+A REGIONRESOURCE (usually named mr_something) describes how a map resource
+can be harvested by using the following properties:
+
+ AMOUNT=     The amount of resources that can be reaped.
+ REAP=       The itemdef that will be reaped.
+ REAPAMOUNT= The amount that can be gathered in one use of skill.
+ SKILL=      The skill required to gather that resource.
+ REGEN=      The time that must pass before that location can be mined again.
+
+////////////////////////////////
+// The "nothing" map resource //
+////////////////////////////////
+
+[REGIONRESOURCE mr_nothing]
+REAP=i_unused
+REGEN=60*60*10 // Nothing can be found at this location for this many seconds.
+
+[EOF]

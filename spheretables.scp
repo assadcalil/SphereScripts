@@ -1,0 +1,135 @@
+// Ultima Online Brasil - Script Pack
+// Pack rebuilded by: João Escribano
+VERSION=0.56d
+
+[RESOURCES]
+// Pre-loads
+scripts/server/general_defnames.scp
+
+// Server
+scripts/server/
+scripts/server/menus/
+scripts/server/events/
+scripts/server/name/
+scripts/server/admin/
+scripts/server/book/
+scripts/server/defs/
+scripts/server/dialog/
+scripts/server/function/
+scripts/server/skills/
+scripts/server/spells/
+scripts/server/sqlite/
+scripts/server/triggers/
+scripts/server/defs/
+
+// Maps
+scripts/server/maps/felucca/
+scripts/server/maps/trammel/
+scripts/server/maps/ilshenar/
+scripts/server/maps/malas/
+scripts/server/maps/tokuno/
+scripts/server/maps/ter_mur/
+
+//Maps Felucca
+//scripts/server/maps/felucca/cave/
+//scripts/server/maps/felucca/city/
+//scripts/server/maps/felucca/dungeons/
+//scripts/server/maps/felucca/island/
+//scripts/server/maps/felucca/lost_land/
+//scripts/server/maps/felucca/mines/
+//scripts/server/maps/felucca/misc/
+//scripts/server/maps/felucca/other/
+//scripts/server/maps/felucca/shrines/
+
+// Mobiles
+scripts/speechs/
+scripts/mobiles/
+scripts/mobiles/humanoid/
+
+// Items
+scripts/items/
+scripts/items/economy/
+scripts/items/containers/
+scripts/items/item_animations/
+scripts/items/item_artifacts/
+scripts/items/item_boulders/
+scripts/items/item_building/
+scripts/items/item_char_icons/
+scripts/items/item_ground_tiles/
+scripts/items/item_holiday/
+scripts/items/item_memories/
+scripts/items/item_misc/
+scripts/items/item_offset/
+scripts/items/item_quest/
+scripts/items/item_resources/
+scripts/items/item_ship/
+scripts/items/item_siege/
+scripts/items/item_theme_pack/
+scripts/items/item_unsorted/
+scripts/items/item_vegetation/
+scripts/items/item_wedding/
+scripts/items/multis/
+
+//Item Decoration
+scripts/items/item_decoration/carpet/
+scripts/items/item_decoration/dungeons/
+scripts/items/item_decoration/fireplace/
+scripts/items/item_decoration/furniture/
+scripts/items/item_decoration/hangings/
+scripts/items/item_decoration/lightsources/
+scripts/items/item_decoration/miniatures/
+scripts/items/item_decoration/signs/
+scripts/items/item_decoration/statues/
+scripts/items/item_decoration/virtues/
+
+//Item Magic
+scripts/items/item_magic/armor/
+scripts/items/item_magic/jewelry/
+scripts/items/item_magic/leather/
+scripts/items/item_magic/spellbook/
+scripts/items/item_magic/wands/
+scripts/items/item_magic/weapon/
+
+//Item Provision
+scripts/items/item_provisions/armor/
+scripts/items/item_provisions/clothing/
+scripts/items/item_provisions/deed/
+scripts/items/item_provisions/jewelry/
+scripts/items/item_provisions/logs/
+scripts/items/item_provisions/misc/
+scripts/items/item_provisions/potions/
+scripts/items/item_provisions/shields/
+scripts/items/item_provisions/weapons/
+
+//Item Profession
+scripts/items/item_profession/
+scripts/items/item_profession/barber/
+
+//Item Mining
+scripts/items/mining/ore/
+
+//NPC
+scripts/npcs/char_evil/
+scripts/npcs/char_human/
+scripts/npcs/guildmaster/
+scripts/npcs/monsters/
+scripts/npcs/monsters_custom/
+scripts/npcs/npc_citizens/
+scripts/npcs/vendors/
+
+//Templates
+scripts/templates/
+
+//Compatibility
+scripts/compatibility/
+
+//Region
+scripts/region/
+
+//Spawns
+scripts/spawns/
+
+//Types
+scripts/types/
+
+[EOF]

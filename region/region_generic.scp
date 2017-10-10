@@ -1,0 +1,44 @@
+// Ultima Online Brasil - Script Pack
+// Pack rebuilded by: Thiago Calil
+VERSION=0.56d
+
+/////////////////////
+// Generic Regions //
+/////////////////////
+
+[REGIONTYPE r_default]
+ON=@Enter
+IF (<SRC.ISPLAYER>) && STRCMPI("<TAG.MUSIC>","<SRC.REGION.TAG.MUSIC>")
+ IF !(<isempty <TAG.MUSIC>>)
+  SRC.MIDILIST=<TAG.MUSIC>
+ ELSE
+  SRC.MIDILIST=midi_britain1,midi_ForestA,midi_JungleA,midi_MountainA,midi_Plains,midi_Victory
+ ENDIF
+ENDIF
+
+//ON=@CliPeriodic
+//IF (<SRC.ISPLAYER>)
+// SRC.MIDILIST=midi_britain1,midi_ForestA,midi_JungleA,midi_MountainA,midi_Plains,midi_Victory
+//ENDIF
+
+[REGIONTYPE r_graveyards]
+ON=@RegPeriodic
+SRC.SOUND={0a 1 0b 1}
+
+[REGIONTYPE r_forests]
+ON=@RegPeriodic
+IF (<SRC.SECTOR.ISNIGHTTIME>)
+ SRC.SOUND={00 2 01 2 02 2 07d 1}	//Play these sounds at night.
+ELSE
+ SRC.SOUND={08 10 09 10 0219 1 07d 1}	//Play these sounds during the day.
+ENDIF
+
+[REGIONTYPE r_jungle]
+ON=@RegPeriodic
+IF (<SRC.SECTOR.ISNIGHTTIME>)
+ SRC.SOUND={0c 2 0d 2 0b3 1}
+ELSE
+ SRC.SOUND={03 2 04 2 05 2 0b3 1}
+ENDIF
+
+[EOF]

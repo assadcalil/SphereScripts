@@ -1,0 +1,18 @@
+// Ultima Online Brasil - Script Pack
+// Pack rebuilded by: Thiago Calil
+VERSION=0.56d
+
+[MENU M_GMFEATURES]
+GameMaster Features
+ON=0 Items
+MENU M_ADDI_GM
+ON=0 Travel to Places
+MENU M_TRAV
+ON=0 Hair & Beards
+MENU M_ADDI_HAIR
+ON=0 House Deeds
+MENU m_addi_deeds
+ON=0 PREVIOUS MENU
+MENU MENU_ADDITEM
+
+[EOF]

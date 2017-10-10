@@ -1,0 +1,53 @@
+// Ultima Online Brasil - Script Pack
+// Pack rebuilded by: Thiago Calil
+VERSION=0.56d
+
+/////////////////////////////////
+// Resources for fishing skill //
+/////////////////////////////////
+
+[REGIONRESOURCE mr_fish1]
+AMOUNT=9,30        // This many...
+REAP=i_fish_big_1  // ...of this item...
+REAPAMOUNT=1,3
+SKILL=1.0,100.0    // ...can be harvested if the player has this much skill.
+REGEN=60*60*10
+
+[REGIONRESOURCE mr_fish2]
+AMOUNT=9,30
+REAP=i_fish_big_2
+REAPAMOUNT=1,3
+SKILL=1.0,100.0
+REGEN=60*60*10
+
+[REGIONRESOURCE mr_fish3]
+AMOUNT=9,30
+REAP=i_fish_big_3
+REAPAMOUNT=1,3
+SKILL=1.0,100.0
+REGEN=60*60*10
+
+[REGIONRESOURCE mr_fish4]
+AMOUNT=9,30
+REAP=i_fish_big_4
+REAPAMOUNT=1,3
+SKILL=1.0,100.0
+REGEN=60*60*10
+
+[REGIONTYPE r_default_water t_water]
+RESOURCES=60.0 mr_nothing  // Most of the time fishing produces nothing.
+RESOURCES=10.0 mr_fish1
+RESOURCES=10.0 mr_fish2
+RESOURCES=10.0 mr_fish3
+RESOURCES=10.0 mr_fish4
+
+[REGIONTYPE r_water t_water]
+RESOURCES=60.0 mr_nothing
+RESOURCES=10.0 mr_fish1
+RESOURCES=10.0 mr_fish2
+RESOURCES=10.0 mr_fish3
+RESOURCES=10.0 mr_fish4
+
+ON=@RegPeriodic
+// Water/Ocean boat sounds
+SRC.SOUND={025 1 026 1 027 1 010 1 011 1 012 1 013 1}

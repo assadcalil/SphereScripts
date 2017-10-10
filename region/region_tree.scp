@@ -1,0 +1,21 @@
+// Ultima Online Brasil - Script Pack
+// Pack rebuilded by: Thiago Calil
+VERSION=0.56d
+
+///////////////////////////////////////
+// Resources for lumberjacking skill //
+///////////////////////////////////////
+
+[REGIONRESOURCE mr_tree]
+AMOUNT=9,30
+REAP=i_log
+REAPAMOUNT=1,3
+SKILL=1.0,80.0
+REGEN=60*60*10
+
+[REGIONTYPE r_default_tree t_tree]
+// All trees produce wood by default.
+RESOURCES=60.0 mr_nothing
+RESOURCES=40.0 mr_tree
+
+[EOF]

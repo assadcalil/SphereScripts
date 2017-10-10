@@ -1,0 +1,146 @@
+// Ultima Online Brasil - Script Pack
+// Pack rebuilded by: Thiago Calil
+VERSION=0.56d
+
+////////
+//Deed//
+////////
+
+[ITEMDEF 014f1]
+DEFNAME=i_deed_ship
+TYPE=t_deed
+FLIP=1
+WEIGHT=1
+CATEGORY=Provisions - Deeds
+SUBSECTION=Ship Plans
+DESCRIPTION=Ship Plans (Blank)
+DUPELIST=014f2
+
+[ITEMDEF 014f2]
+//ship plans
+DUPEITEM=014f1
+
+/////////////
+//Deed Ship//
+/////////////
+
+[ITEMDEF i_deed_small_ship_n]
+ID=i_deed_ship
+NAME=Deed to a Small Ship
+CATEGORY=Provisions - Deeds
+SUBSECTION=Ship Plans
+DESCRIPTION=Small Ship
+WEIGHT=1
+VALUE=1
+ON=@Create
+   MORE=m_small_ship_n
+
+[ITEMDEF i_deed_small_dragon_ship_n]
+ID=i_deed_ship
+NAME=Deed to a Small Dragon Ship
+CATEGORY=Provisions - Deeds
+SUBSECTION=Ship Plans
+DESCRIPTION=Small Dragon Ship
+WEIGHT=1
+VALUE=1
+ON=@Create
+   MORE=m_small_dragon_ship_n
+
+[ITEMDEF i_deed_medium_ship_n]
+ID=i_deed_ship
+NAME=Deed to a Medium Ship
+CATEGORY=Provisions - Deeds
+SUBSECTION=Ship Plans
+DESCRIPTION=Medium Ship
+WEIGHT=1
+VALUE=1
+ON=@Create
+   MORE=m_medium_ship_n
+
+[ITEMDEF i_deed_medium_dragon_ship_n]
+ID=i_deed_ship
+NAME=Deed to a Medium Dragon Ship
+CATEGORY=Provisions - Deeds
+SUBSECTION=Ship Plans
+DESCRIPTION=Medium Dragon Ship
+WEIGHT=1
+VALUE=1
+ON=@Create
+   MORE=m_medium_dragon_ship_n
+
+[ITEMDEF i_deed_large_ship_n]
+ID=i_deed_ship
+NAME=Deed to a Long Ship
+CATEGORY=Provisions - Deeds
+SUBSECTION=Ship Plans
+DESCRIPTION=Long Ship
+WEIGHT=1
+VALUE=1
+ON=@Create
+   MORE=m_large_ship_n
+
+[ITEMDEF i_deed_large_dragon_ship_n]
+ID=i_deed_ship
+NAME=Deed to a Long Dragon Ship
+CATEGORY=Provisions - Deeds
+SUBSECTION=Ship Plans
+DESCRIPTION=Long Dragon Ship
+WEIGHT=1
+VALUE=1
+ON=@Create
+   MORE=m_large_dragon_ship_n
+
+[ITEMDEF i_deed_orc_ship_n]
+ID=i_deed_ship
+NAME=Deed to a Orc Ship
+CATEGORY=Provisions - Deeds
+SUBSECTION=Ship Plans
+DESCRIPTION=Orc Ship
+WEIGHT=1
+VALUE=1
+ON=@Create
+   MORE=m_orc_ship_n
+
+[ITEMDEF i_deed_rowboat_n]
+ID=i_deed_ship
+NAME=Deed to a Rowboat
+CATEGORY=Provisions - Deeds
+SUBSECTION=Ship Plans
+DESCRIPTION=Rowboat
+WEIGHT=1
+VALUE=1
+ON=@Create
+   MORE=m_rowboat_n
+
+[ITEMDEF i_deed_gargoyle_ship_n]
+ID=i_deed_ship
+NAME=Deed to a Gargoyle Ship
+CATEGORY=Provisions - Deeds
+SUBSECTION=Ship Plans
+DESCRIPTION=Gargoyle Ship
+WEIGHT=1
+VALUE=1
+ON=@Create
+   MORE=m_gargoyle_ship_n
+
+[ITEMDEF i_deed_tokuno_ship_n]
+ID=i_deed_ship
+NAME=Deed to a Tokuno Ship
+CATEGORY=Provisions - Deeds
+SUBSECTION=Ship Plans
+DESCRIPTION=Tokuno Ship
+WEIGHT=1
+VALUE=1
+ON=@Create
+   MORE=m_tokuno_ship_n
+
+[ITEMDEF i_deed_britannian_ship_n]
+ID=i_deed_ship
+NAME=Deed to a Britannian Ship
+CATEGORY=Provisions - Deeds
+SUBSECTION=Ship Plans
+DESCRIPTION=Britannian Ship
+WEIGHT=1
+VALUE=1
+ON=@Create
+   MORE=m_britannian_ship_n
