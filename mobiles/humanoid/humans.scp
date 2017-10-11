@@ -14,6 +14,7 @@ item=i_dagger
 item=i_shirt_plain
 item=i_pants_short
 item=i_shoes_plain
+item=bag_of_magery_reagents
 
 [NEWBIE FEMALE_DEFAULT]
 item=i_gold,1000
@@ -23,6 +24,7 @@ item=i_dagger
 item=i_shirt_plain
 item=i_pants_short
 item=i_shoes_plain
+item=bag_of_magery_reagents
 
 ////////////////////
 //Profession Human//
