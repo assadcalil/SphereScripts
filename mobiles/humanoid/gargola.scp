@@ -11,18 +11,12 @@ ITEM=i_gold,1000
 ITEM=i_book_sm
 ITEM=i_candle
 ITEM=i_dagger
-ITEM=i_shirt_plain
-ITEM=i_pants_short
-ITEM=i_shoes_plain
 
 [NEWBIE FEMALE_DEFAULT GARG]
 ITEM=i_gold,1000
 ITEM=i_book_sm
 ITEM=i_candle
 ITEM=i_dagger
-ITEM=i_shirt_plain
-ITEM=i_pants_short
-ITEM=i_shoes_plain
 
 //////////////////////
 //Profession Margola//
